@@ -1,0 +1,50 @@
+<resources>
+    //MainTwoActivity.java
+    <string name="app_name">ThebestCalculator</string>
+
+
+
+    <string name="app_name1">Назад</string>
+    <string name="app_name2"> Введите числа:</string>
+    <string name="app_name3">   а    </string>
+    <string name="app_name4">    b           </string>
+    <string name="app_name5">       с     </string>
+    <string name="app_name6">      1      </string>
+    <string name="app_name7">      2       </string>
+    <string name="app_name8">      3       </string>
+    <string name="app_name9">      4       </string>
+    <string name="app_name10">      5       </string>
+    <string name="app_name11">      6       </string>
+    <string name="app_name12">      7       </string>
+    <string name="app_name13">     8       </string>
+    <string name="app_name14">      9       </string>
+    <string name="app_name15">      0       </string>
+    <string name="app_name16">      -      </string>
+    <string name="app_name17">      С      </string>
+    <string name="app_name18">      ↩       </string>
+    <string name="app_name19">    Решение:    </string>
+    <string name="app_name20">    D=b²-4ac=    </string>
+
+    //MainActivity
+    <string name="app_name21">    7    </string>
+    <string name="app_name22">    8    </string>
+    <string name="app_name23">   9    </string>
+    <string name="app_name24">   /   </string>
+    <string name="app_name25">    4     </string>
+    <string name="app_name26">   5    </string>
+    <string name="app_name27">    6      </string>
+    <string name="app_name28">     *   </string>
+    <string name="app_name29">      1   </string>
+    <string name="app_name30">    2     </string>
+    <string name="app_name31">     3   </string>
+    <string name="app_name32">    -   </string>
+    <string name="app_name33">    0     </string>
+    <string name="app_name34">   ,     </string>
+    <string name="app_name35">   +    </string>
+    <string name="app_name36">     =   </string>
+    <string name="app_name37">   C     </string>
+    <string name="app_name38">    ^  </string>
+    <string name="app_name39">    ax²+bx+c=0    </string>
+    <string name="app_name40">     √  </string>
+    <string name="title_activity_main_two">MainTwoActivity</string>
+</resources>

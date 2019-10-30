@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/did">
+
+    <EditText
+        android:inputType="phone"
+        android:id="@+id/numberField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/numberField"
+        android:layout_below="@+id/resultField"
+        android:layout_marginTop="11dp"/>
+
+
+    <TextView
+        android:id="@+id/operationField"
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/resultField"
+        android:layout_width="230dp"
+        android:textSize="18sp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginStart="11dp" />
+
+    <LinearLayout
+        android:layout_below="@+id/numberField"
+        android:id="@+id/First"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name21"
+            android:textSize="23sp"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:textSize="23sp"
+            android:text="@string/app_name22"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name23"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name24"
+            android:onClick="onOperationClick"
+            android:background="@drawable/deep"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/First"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name25"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name26"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name27"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name28"
+            android:onClick="onOperationClick"
+            android:background="@drawable/deep"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/Second"
+        android:id="@+id/Third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name29"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name30"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name31"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name32"
+            android:onClick="onOperationClick"
+            android:background="@drawable/deep"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/Third"
+        android:id="@+id/Fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name33"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name34"
+            android:onClick="onNumberClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name35"
+            android:onClick="onOperationClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name36"
+            android:onClick="onOperationClick"
+            android:background="@drawable/deep"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/Fourth"
+        android:id="@+id/Fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:text="@string/app_name37"
+            android:onClick="onDeleteClick"
+            android:background="@drawable/deep"/>
+
+        <Button
+            android:textSize="23sp"
+            android:layout_width="94dp"
+            android:layout_height="50dp"
+            android:onClick="onOperationClick"
+            android:background="@drawable/deep"
+            android:text="@string/app_name38"/>
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/deep"
+            android:onClick="Next"
+            android:text="@string/app_name39"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:textSize="23sp"
+        android:id="@+id/button"
+        android:layout_width="94dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Fifth"
+        android:text= "@string/app_name40"
+        android:onClick="onOperationClick"
+        android:background="@drawable/deep"/>
+
+</RelativeLayout>
